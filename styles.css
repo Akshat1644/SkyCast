@@ -1,0 +1,68 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting a background color and font family */
+body {
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the header */
+h1 {
+    background-color: aqua;
+    color: aqua;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Styling the main content area */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Styling the weather card */
+.weather-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styling the weather icon */
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Styling the weather details */
+.weather-details {
+    text-align: center;
+}
+
+.weather-details h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.weather-details p {
+    margin: 5px 0;
+}
+
+/* Styling the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
