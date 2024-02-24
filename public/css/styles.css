@@ -13,8 +13,19 @@ body {
 /* Styling the header */
 h1 {
     background-color: aqua;
-    color: aqua;
+    color: red;
     padding: 10px 0;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+}
+
+.City{
+    padding: 10px 0;
+    font-size: large;
     text-align: center;
 }
 
