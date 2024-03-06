@@ -1,79 +1,55 @@
 /* Resetting default margin and padding */
-body, html {
-    margin: 0;
-    padding: 0;
-}
-
-/* Setting a background color and font family */
-body {
-    background-color: aqua;
-    font-family: Arial, sans-serif;
+body,
+html {
+    margin: 5;
+    padding: 5;
 }
 
 /* Styling the header */
 h1 {
-    background-color: aqua;
-    color: red;
-    padding: 10px 0;
+    margin-top: 30vh;
+    margin-left: 65vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     text-align: center;
 }
 
-h2{
-    color: blue;
+h2 {
+    color: beige;
     text-align: center;
 }
 
-.City{
+img {
+    height: 30px;
+    width: 50px;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg");
+    background-size: cover;
+}
+
+.City {
     padding: 10px 0;
     font-size: large;
     text-align: center;
 }
 
-/* Styling the main content area */
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
+#cityInput{
+    height: 3vh;
+    width: 20vw;
+    border-radius: 0.5rem;
 }
 
-/* Styling the weather card */
-.weather-card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
+#btn{
+    height: 3vh;
+    width: 2.5vw;
 }
 
-/* Styling the weather icon */
-.weather-icon {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    display: block;
-}
-
-/* Styling the weather details */
-.weather-details {
-    text-align: center;
-}
-
-.weather-details h2 {
-    margin-top: 0;
-    font-size: 24px;
-}
-
-.weather-details p {
-    margin: 5px 0;
-}
-
-/* Styling the footer */
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* Set body background and font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
